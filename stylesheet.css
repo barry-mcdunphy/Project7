@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+    position: relative;
+    min-height: 100%;
+	margin:0;
+}
+
+header{
+	background-color: #f44336;
+}
+
+body {
+
+/*background-color: white;*/
+	background:  linear-gradient(white, grey);
+	 padding:10px;
+   	padding-bottom:25px; 
+	margin:0;
+
+}
+
+#container{
+	width:1200px;
+	/*margin:auto;*/
+	margin: auto;
+	
+}
+
+#logo {
+  height: 40px;
+  vertical-align: middle;
+	padding: 3px 2px;
+}
+
+
+ul.main{
+	display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+}
+
+li.main {
+	display: inline;
+    float: right;
+	border-right: 1px solid #bbb;
+	
+}
+
+li a{
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+	font:amaranth;
+}
+
+li a:hover:not(.active) {
+    background-color: #71767B;
+}
+
+.active {
+    background-color:#000000 ;
+}
+
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+	
+}
+
+h1{
+	
+	font-size: 40px;
+	color:#be1621;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	
+}
+
+h2, h3, p{
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+img{
+	z-index:-1;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+	text-align: center;
+}
+
+/* Clear floats after the columns */
+.lower:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+footer{
+	position:absolute;
+	margin: auto;
+	padding-top: 5px;
+	font-size: 80%;
+	/*padding: 0px 1200px 3px 20px;*/
+	background: #B4B2B2;
+	width: 100%;
+	overflow:hidden;
+	left: 0;
+    bottom: 0;
+	height: 25px;
+	text-align: center;
+}
+
+
+.about {
+    float: left;
+    padding: 10px;
+     /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.overview:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+ul.lower{
+	
+	list-style-type: circle;
+    
+  
+    /*position: fixed;*/
+    
+   
+}
+
+li.lower {
+
+    float: left;
+	width: 1200px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	
+
+}
+
+
+
+#Advisory{
+	border-radius: 8%; 
+	display: block;
+    margin: 0 auto;
+}
+
+#Contact, #Financial, #Sciences, #Public, #Awards{
+	border-radius: 8%; 
+	display: block;
+    margin: 0 auto;
+}
+
+.Industries{
+  float: left;
+  width: 33%;
+	
+	
+}
+
+
+
+
+
+
+.knowledge1{
+  float: left;
+  width: 60%;
+	
+	
+}
+
+.knowledge2{
+  float: right;
+  width: 40%;
+	
+	margin: auto;
+	text-align: center;
+	
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 15px;
+}
+
+a:hover, a:active {
+    background-color: grey;
+}
+a.current_page{
+	background-color:grey;
+}
+.Contact {
+}
